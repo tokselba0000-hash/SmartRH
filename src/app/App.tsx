@@ -1,5 +1,6 @@
 import { useState } from "react"
 import smartRHLogo from "@/imports/WhatsApp_Image_2026-06-13_at_12.57.54_AM.jpeg"
+import ImageWithFallback from "@/app/components/figma/ImageWithFallback"
 import {
   LayoutDashboard, Users, ClipboardList, Calendar, Settings,
   LogOut, Bell, Search, TrendingUp, ChevronRight,
