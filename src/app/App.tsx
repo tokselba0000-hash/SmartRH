@@ -406,8 +406,7 @@ function LoginScreen({ onLogin }: { onLogin: () => void }) {
                   type="email"
                   value={email}
                   onChange={e => setEmail(e.target.value)}
-                  className="w-full px-4 py-3 rounded-xl border-2 border-slate-200 bg-slate-50/70 text-sm font-medium focus:outline-none focus:border-blue-500 focus:bg-white transition-all text-slate-800 placeholder:text-slate-400"
-                  placeholder="votre@email.com"
+                 className="w-full px-4 py-3 rounded-xl border-2 border-gray-300 bg-white text-black text-sm"
                 />
               </div>
               <div>
