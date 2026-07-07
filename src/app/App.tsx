@@ -399,7 +399,7 @@ function LoginScreen({ onLogin }: { onLogin: () => void }) {
               <p className="text-slate-400 text-sm mt-1">Entrez vos identifiants pour continuer</p>
             </div>
 
-            <form onSubmit={handleSubmit} className="space-y-4">
+            <form onSubmit={handleSubmit} className="space-y-4 relative z-50">
               <div>
                 <label className="text-sm font-semibold text-slate-700 block mb-1.5">Adresse e-mail</label>
                 <input
